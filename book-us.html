@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+         <link rel="stylesheet" href="css/style.css" type="text/css" />
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+         <title> Milestone Project (The Monkees)</title>
+     </head>
+     <body>
+         <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                <div class="collapse navbar-collapse social-settings">
+                    <ul class="visible-md visible-lg nav navbar-nav navbar-left">
+                        <li><a target="_blank" href="https://www.facebook.com/TheMonkees/?rf=114902885188288"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://twitter.com/themonkees?lang=en"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/themonkees/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"><i class="fa fa-youtube"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                </div>
+                <ul class="nav navbar-nav navbar-right home-links collapse navbar-collapse" id="myNavbar">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="music.html">MUSIC</a></li>
+                        <li><a href="video.html">VIDEO</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                        <li class="active"><a href="book-us.html">BOOK US</a></li>
+                </ul>
+            </div>
+         </nav>
+         <div class="container">
+             <div class="row">
+                 <div class="col-xs-12 book-box-color">
+                     <h1 class="book-us uppercase text-center">The Monkees</h1>
+                     <img class="center" src="band-assets/images/album.jpg" alt="album" height="200" width="410">
+                     <p class="book-para-color">
+                         We are available to perform at events such as weddings and Christmas parties and any other special
+                         occasions.<br> Complete the form below if interested/enquiries. Thank you
+                     </p>
+                 </div>
+             </div>
+         </div>
+         <div class="container booking-bg">
+             <form>
+                 <div class="row">
+                     <div class="col-xs-12 col-sm-6">
+                         <div class="form-group monkee-form">
+                             <label class="monkee-font">Name </label>
+                             <input required id="Name" type="text" class="form-control" placeholder= "Name"/>
+                         </div>
+                         <div class="col-xs-12 form-group monkee-form">
+                             <label class="monkee-font" for="email">Email Address </label>
+                             <input required type="text" class="form-control" id="email" placeholder= "Email address"/>
+                         </div>
+                         <div class="col-xs-12 form-group monkee-form">
+                             <label class="monkee-font" for="event-type">Type of Event </label>
+                             <select required class="form-control" id="event-type">
+                                 <option></option>
+                                 <option>Wedding</option>
+                                 <option>Festival</option>
+                                 <option>Party</option>
+                                 <option>Other</option>
+                             </select>
+                         </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6">
+                         <div class="form-group monkee-form">
+                             <label class="monkee-font">Additonal Information</label>
+                             <textarea class="form-control" id="addition-information" rows="8" placeholder="Additional Information"> </textarea>
+                         </div>
+                     </div>
+                 </div>     
+                 <div class="form-group monkee-form location-pad text-center">
+                     <label class="monkee-font">Location of your proposed event to take place?</label>
+                 </div>
+                 <div class="row">
+                     <div class="col-xs-12 col-sm-6 monkee-form">
+                         <label class="monkee-font">Country</label>
+                         <input type="text" class="form-control" id="band-bookings-country" placeholder="Country..">
+                     </div>
+                     <div class="col-xs-12 col-sm-6 monkee-form">
+                         <label class="monkee-font">City/Town</label>
+                         <input type="text" class="form-control" id="band-bookings" placeholder="City">
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="form-group monkee-form">
+                         <div class="submit-button">
+                             <button class="btn btn-default monkee-font sub-button" type="submit">Submit</button>
+                         </div>
+                     </div>
+                 </div>
+             </form>
+         </div>
+         <footer class="container social-margins">
+              <div class="col-xs-12">
+                  <h5 class="uppercase">Follow us on social media</h5>
+                    <ul class="list-inline social-links">
+                        <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+              </div>
+         </footer>
+         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+     </body>
+</html>

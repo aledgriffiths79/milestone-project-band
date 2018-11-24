@@ -1,0 +1,452 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* Body Element */
+
+body {
+    background-color: #aaa;
+}
+
+/* Header Navigation */
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 10px !important;
+    letter-spacing: 8px;
+    opacity:0.9;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fffce9;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-toggle:hover {
+    background-color: #b2b2b2;
+}
+
+.collapse {
+    display: none;
+}
+
+.collapse:target {
+    display: block;
+}
+
+.social-settings li a i {
+    width: 32px;
+    height: 32px;
+    padding-left: 8px;
+    padding-top: 12px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #fffce9;
+    background: #0f0f0f00;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-settings li a i:hover {
+    background: #111111;
+}
+
+.home-links {
+    color: #fffce9;
+    background: #0f0f0f00;
+    transition: all 0.35s ease-in-out;
+}
+
+.navbar-default .navbar-nav li a:hover {
+     background-color: #000000;
+}
+
+.bi {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 202px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.band-member:hover {
+      border-color: #ddd;
+}
+
+.collapse:target {
+    display: block;
+}
+
+/* band intro section */
+
+.band-member {
+      border: 5px solid transparent;
+      margin-bottom: 25px;
+      max-height: 130px;
+      max-width: 240px;
+      opacity: 0.8;
+      margin: auto;
+}
+
+.band-intro {
+    background: url(//www.fg-a.com/wallpapers/2017-4-light-background-geo.jpg);
+}
+
+.title {
+    text-shadow: 4px 4px 4px #1f284f;
+    margin-top: 0vh;
+    padding: 20px 10px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: 'Martel', serif;
+    color: #fffce9;
+    text-align: center;
+}
+
+.title-music {
+    text-shadow: 4px 4px 4px #1f284f;
+    margin-top: 8vh;
+    padding: 20px 10px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: 'Martel', serif;
+    color: #fffce9;
+    text-align: center;
+}
+
+.para-color {
+    text-align: center;
+    font-family: "Crimson Text",Georgia,Times,serif;
+    font-weight: bolder;
+    padding-right: 30px;
+}
+
+.singers-id {
+    display: inline;
+}
+
+.member-name-position {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Concert dates */
+
+.bi-dates,
+.concert-dates {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: url(//cache.umusic.com/_sites/_halo/thekillers/images/tour-bg_mountain.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.concert-yr {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
+
+.venue, .city {
+    font-size: 25px;
+}
+
+.concert-btm-marge {
+    margin-bottom: 20px;
+}
+
+/* Newsletter Section */
+
+.news-margin {
+    background: url(//cache.umusic.com/_sites/_halo/thekillers/images/newsletter-bg.jpg) center bottom/cover no-repeat;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.newsletter {
+    letter-spacing: .3em;
+    text-align: center;
+    color: #fffce9;
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: 230px;
+    vertical-align: middle;
+}
+
+.margin-sub {
+    margin: auto;
+}
+
+.sub-button-subscribe {
+    border-color: black;
+    width: 15%;
+    border: 3px solid;
+    border-radius: 10px;
+    width: 100px;
+}
+
+/* Footer */
+
+.social-margins {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.social-footer-uppercase {
+    text-transform: capitalize;
+}
+
+.social-links {
+    padding-top: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #fffce9;
+    background: #0f0f0f00;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #3d3d40;
+}
+
+/* Music Page */
+
+.music-image {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.titleposition {
+    margin-top: 12vh;
+    margin-bottom: 20px;
+}
+
+.audiotitleposition {
+    text-align: center;
+}
+
+.aud-centre {
+    margin: auto;
+}
+
+.music-box {
+    background-color: #3a3a3c;
+    background: url("http://ultimateclassicrock.com/files/2017/01/more-of-alt.jpg?w=980&q=75") center/cover no-repeat;
+    opacity: 0.7;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.music-box-2 {
+    background-color: #3a3a3c;
+    background: url("https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/monkees_lead.jpg?itok=PPeT4ZI7&resize=1100x1100") center/cover no-repeat;
+    opacity:0.7;
+    padding-bottom: 10px;
+}
+
+.music-title-position {
+    margin-bottom: 10px;
+}
+
+.music-social-font {
+    font-family: 'Martel', serif;
+    color: #000;
+    font-size: 13px;
+    color: #d7d1c4;
+}
+
+.audio-centre {
+    text-align: center;
+}
+
+.title-font {
+    font-family: 'Martel', serif;
+    color: #fffce9;
+    text-shadow: 4px 4px 4px #1f284f;
+}
+
+/* Video Page */
+
+.vid-pic-marg {
+    margin-top: 20px;
+}
+
+.vid-marg {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+ 
+.music-bg-image {
+    position: relative;
+    background-position-y: top;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.music-bg-image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+}
+
+.text {
+    color: #eeeeee7a;
+    position: relative;
+    margin: 0 auto; /* Center it */
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+    display: block;
+    margin: auto;
+}
+
+.audio-marg {
+    margin-bottom: 20px;
+}
+
+/* Gallery */
+
+.gal-imge {
+    margin: auto;
+    width: 280px;
+    max-height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.gallery-box-color {
+    background-color: #3a3a3c;
+    padding: 5vh 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.gal-marg-btm {
+    margin-bottom: 5px;
+}
+
+.thumbnail > a > img: { width: 100%; }
+     
+.thumbnail {
+    text-align: center;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Book Us Page*/
+
+.book-box-color {
+    background-color: #3a3a3c;
+    padding-bottom: 3vh;
+}
+
+.book-us {
+    margin-top: 8vh;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #fffce9;
+    padding: 20px 10px;
+    font-size: 2.5em;
+    font-family: 'Martel', serif;
+    color: #fffce9;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+    height: auto;
+}
+
+.book-para-color {
+    color: #eeeeeec2;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.booking-bg {
+    background-color: #3a3a3c;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.monkee-form {
+    padding: 0 10%;
+}
+
+.monkee-font {
+    font-family: 'Martel', serif;
+    color: #fffce9;
+    font-size: 18px;
+}
+
+.sub-button {
+    background-color: #dddddd22;
+    border-color: black;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75%;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.submit-button {
+    margin-bottom:3vh;
+    height:50px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #0d0c0c;
+}
